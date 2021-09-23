@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BARRA DI NAVIGAZIONE CON TUTTI I SUOI CONTENUTI */
+.navigationbar{
+    width: 100%;
+    height: 80px;
+    /* debug */
+    background-color: aqua;
+}
+.logo{
+    display: inline-block;
+    height: 80px;
+    width: 10%;
+
+    /* debub */
+    background-color: blue;
+}
+.content1{
+    display: inline-block;
+    height: 80px;
+    width: 20%;
+
+    /* debug */
+    background-color: chartreuse;
+}
+.content2{
+    display: inline-block;
+    float: right;
+    height: 80px;
+    width: 10%;
+    
+    /* debug */
+    background-color: blue;
+}
+.buttonstart{
+    display: inline-block;
+    float: right;
+    height: 80px;
+    width: 20%;
+
+    /* debug */
+    background-color: chartreuse;
+}
+
+/* IMPOSTAZIONI JUMBOTRON */
+.jumbotron{
+    width: 100%;
+    height: 400px;
+
+    /* debug */
+    background-color: coral;
+}
+.principaltitle{
+    font-size: 35px;
+    text-align: left;
+    height: 120px;
+    width: 90%;
+    margin: 0 auto;
+    
+    /* debug */
+    background-color: yellow;
+}
+.rightcolumn{
+    float: left;
+    width: 30%;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 66px;
+    /* debug */
+    background-color: violet;
+}
+.accesstoservice{
+    margin-top: 10px;
+}
+
+.leftcolumn{
+    float: right;
+    width: 60%;
+    height: 300px;
+    margin-top: 10px;
+    margin-right: 66px;
+
+    /* debug */
+    background-color: tomato;
+}
