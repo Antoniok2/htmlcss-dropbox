@@ -14,21 +14,20 @@ body{
     margin: 0 auto;
     width: 100%;
     height: 50px;
-
     /* debug */
-    background-color:turquoise;
+    /* background-color:turquoise; */
 }
 .clearfix::after{
     content:"";
     display: table;
     clear: both;
 }
+
 /* REGOLE PRIMO CONTENITORE */
 .contenitor1{
     float: left;
     width: 50%;
     height: 50px;
-
     /* debug */
     /* background-color: tomato; */
 }
@@ -44,11 +43,9 @@ body{
     width: 50%;
     height: 50px;
     text-align: right;
-
     /* debug */
     /* background-color: tomato; */
 }
-
 
 /* QUI TROVO LE REGOLE GENERALI BARRA DI NAVIGAZIONE */
 .mainnav{
@@ -57,7 +54,6 @@ body{
     width: 70%;
     padding-left: 50px;
     padding-right: 50px;
-
     /* debug */
     /* background-color: blue; */
 }
@@ -71,7 +67,6 @@ body{
     text-decoration: none;
     padding-left: 10px;
 }
-
 .buttoncontenitore{
     background-color: blue;
     color: white;
@@ -79,4 +74,53 @@ body{
     padding: 5px 15px;
 }
 
+    /* REGOLE GENERALI CONTENITORE JUMBOTRON */
+.jumbotron{
+    width: 100%;
+    height: 500px;
+    /* debug */
+    background-color: rgb(134, 191, 255);
+}
+h1{
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 80%;
+    font-size: 60px;
+    text-align: left;
+    /* debug */
+    /* background-color: tomato; */
+}
 
+
+    /* REGOLE GENERALI 2 COLONNE JUMBO */
+.colonne{
+    margin: 0 auto;
+    width: 80%;
+}
+
+    /* COLONNA JUMBOTRON SINISTRA*/
+.columnleft{
+    margin-top: 20px;
+    width: 30%;
+    /* height: 300px; */
+    float: left;
+    /* debug */
+    /* background-color: yellow; */
+}
+.downcolumnleft{
+    margin-top: 20px;
+}
+
+    /* COLONNA JUMBOTRON DESTRA */
+.columnright{
+    margin-top: 20px;
+    width: 70%;
+    height: auto;
+    float: left;
+
+    /* debug */
+    /* background-color: green; */
+}
+.columnright img{
+    max-width: 100%;
+}
