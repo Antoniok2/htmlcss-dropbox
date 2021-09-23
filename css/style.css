@@ -53,8 +53,8 @@ body{
     display: inline-block;
     height: 100%;
     width: 70%;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10px;
+    padding-right: 30px;
     /* debug */
     /* background-color: blue; */
 }
@@ -124,4 +124,36 @@ h1{
 }
 .columnright img{
     max-width: 100%;
+}
+.divisore{
+    width: 100%;
+    height: 140px;
+    /* debug */
+    /* background-color: yellow; */
+}
+
+
+/* MAIN */
+h2{
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    text-align: left;
+    font-size: 40px;
+    /* debug */
+    background-color: yellow;
+}
+
+.selectfacturation{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.piano{
+    margin: 0 auto;
+    width: calc(100% / 3);
+    border: 1px solid grey;
+    float: left;
+    height: 50px;
+    background-color: yellow;
 }
