@@ -138,11 +138,11 @@ h1{
 
 /* MAIN */
 h2{
-    margin: 0 auto;
+    margin: 10px auto;
     width: 86%;
     height: auto;
     text-align: left;
-    font-size: 38px;
+    font-size: 30px;
     /* debug */
     /* background-color: yellow; */
 }
@@ -273,6 +273,35 @@ p{
     margin: 10% 20%;
 }
 
+    /* QUI COMINCIA LA PARTE TABELLARE FINALE */
+.teamdropbox{
+    max-width: 100%;
+    height: auto;
+    /* background-color: yellow; */
+}
+    /* QUI TROVO LE REGOLE DELLA TABELLA GENERALE */
+.teams, .teams_4{
+    width: calc(100% / 3);
+    height: auto;
+    float: left;
+    /* border: 1px solid black; */
+}
+.teams{
+    background-color: rgb(214, 214, 214);
+}
+._all_teams img{
+    float: left;
+    max-width: 50%;
+    padding: 10%;
+    background-color: rgb(107, 107, 255);
+    /* border: 1px black solid; */
+}
+.img_teams{
+    max-width: 30%;
+    padding-left: 20px;
+    border-bottom: 1px solid grey;
+    margin-left: 20px;
+}
 
 
     
