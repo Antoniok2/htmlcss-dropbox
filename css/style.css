@@ -74,6 +74,7 @@ body{
     text-decoration: none;
     padding: 5px 15px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
     /* REGOLE GENERALI CONTENITORE JUMBOTRON */
@@ -172,7 +173,7 @@ h2{
     /* debug */
     /* background-color: brown; */
 }
-h4{
+    .single_plus{
     text-align: center;
     padding: 10px 0;
     border: 1px grey solid;
@@ -185,7 +186,50 @@ span{
     padding: 10px;
     
 }
- h5{
+h5{
      padding: 25px 10px;
  }
 
+
+ h4{
+     max-width: 87%;
+     /* height: 50px; */
+     margin: 0 auto;
+     text-align: center;
+     margin-top: 20px;
+     border: 1px solid grey;
+     padding: 10px 0;
+     
+
+     /* debug */
+     /* background-color: yellow; */
+ }
+
+
+.enterprise{
+    max-width: 87%;
+    height: auto;
+    /* background-color: red; */
+    margin: 0 auto;
+    border: 1px grey solid;
+}
+.column1{
+    float: left;
+    width: 70%;
+    height: 100px;
+    /* background-color: yellow; */
+}
+.column2{
+    float: left;
+    width: 30%;
+    height: 100px;
+    /* border-left: 1px solid grey; */
+    /* background-color: grey; */
+}
+h6{
+    padding-left: 10px;
+}
+p{
+
+    margin: 10px 10px;
+}
