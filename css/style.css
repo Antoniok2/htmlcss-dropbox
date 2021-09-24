@@ -304,7 +304,6 @@ p{
     margin-left: 20px;
 }
 
-
 .bottom_column{
     width: 100%;
     height: auto;
@@ -325,6 +324,7 @@ p{
 .h2_columnleft{
     margin-top: 8%;
     margin-left: 10%;
+    color: rgb(104, 27, 27);
 }
     
 
