@@ -327,4 +327,18 @@ p{
     color: rgb(104, 27, 27);
 }
     
+.answer{
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    /* background-color: yellow; */
+}
 
+.frequentrequest{
+    margin-top: 50px;
+}
+.request p{
+    margin-left: 70px;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+}
