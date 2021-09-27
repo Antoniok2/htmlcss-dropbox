@@ -14,9 +14,11 @@ body{
     display: inline-block;
     margin: 0 auto;
     width: 100%;
+    position: fixed;
+    height: 50px;
     /* height: 50px; */
     /* debug */
-    /* background-color:turquoise; */
+    background-color:white;
 }
 .clearfix::after{
     content:"";
@@ -169,7 +171,6 @@ h2{
     width: calc(88% / 3);
     border: 1px solid grey;
     margin: 0 2%;
-
     /* debug */
     /* background-color: brown; */
 }
@@ -189,8 +190,6 @@ span{
 h5{
      padding: 25px 10px;
  }
-
-
  h4{
      max-width: 87%;
      /* height: 50px; */
@@ -199,8 +198,6 @@ h5{
      margin-top: 20px;
      border: 1px solid grey;
      padding: 10px 0;
-     
-
      /* debug */
      /* background-color: yellow; */
  }
@@ -276,7 +273,7 @@ p{
     /* QUI COMINCIA LA PARTE TABELLARE FINALE */
 .teamdropbox{
     max-width: 100%;
-    height: auto;
+    height: 546px;
     /* background-color: yellow; */
 }
     /* QUI TROVO LE REGOLE DELLA TABELLA GENERALE */
@@ -288,7 +285,7 @@ p{
 }
 .teams{
     background-color: rgb(214, 214, 214);
-    height: 386px;
+    height: 545px;
 }
 ._all_teams img{
     float: left;
@@ -327,13 +324,13 @@ p{
     color: rgb(104, 27, 27);
 }
     
+ /* DA QUI COMINCIA LA PARTE CON LE DOMANDE */
 .answer{
     margin: 100px auto;
     width: 90%;
     height: auto;
     /* background-color: yellow; */
 }
-
 .frequentrequest{
     margin-top: 50px;
 }
@@ -343,10 +340,13 @@ p{
     padding-top: 20px;
 }
 
+
+    /* QUI COMINCIA LA PARTE FINALE "FOOTER" */
 .endpage{
     width: 100%;
     height: 600px;
     background-color: black;
+    position: relative;
 }
 
 .endpage_column{
@@ -373,5 +373,18 @@ p{
 .end_nav li a{
     color: white;
     text-decoration: none;
-
 }
+
+.language{
+    width: 10%;
+    height: 50px;
+    /* background-color: yellow; */
+    position: absolute;
+    left: 4%;
+    bottom: 10px;
+}
+.language span{
+    color: white;
+    border-top: 1px solid grey;
+}
+
