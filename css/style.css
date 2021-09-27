@@ -85,6 +85,7 @@ a:hover{
     /* REGOLE GENERALI CONTENITORE JUMBOTRON */
 .jumbotron{
     width: 100%;
+    padding-top: 50px;
 
     /* height: 550px; */
     /* debug */
@@ -156,6 +157,9 @@ h2{
 .selectfacturation{
     width: 86%;
     margin: 20px auto;
+}
+.selectfacturation, input{
+    padding: 20px 0;
 }
 
 .selectplan{
@@ -294,7 +298,8 @@ p{
     float: left;
     max-width: 50%;
     padding: 10%;
-    background-color: rgb(107, 107, 255);
+    /* background-color: rgb(107, 107, 255); */
+    /* filter: invert(100%); */
     /* border: 1px black solid; */
 }
 .img_teams{
@@ -303,6 +308,33 @@ p{
     border-bottom: 1px solid grey;
     margin-left: 20px;
 }
+.img_team1{
+    background-color: rgb(203, 255, 154);
+}
+.img_team2{
+    background-color: rgb(119, 35, 35);
+}
+.img_team3{
+    background-color: rgb(96, 99, 255);
+}
+.img_team4{
+    background-color: rgb(255, 40, 40);
+}
+.img_team5{
+    background-color: rgb(255, 15, 15);
+}
+.img_team6{
+    background-color: rgb(174, 252, 255);
+}
+.img_team7{
+    background-color: rgb(42, 27, 255);
+}
+.img_team8{
+    background-color: rgb(255, 251, 0);
+}
+
+
+
 
 .bottom_column{
     width: 100%;
