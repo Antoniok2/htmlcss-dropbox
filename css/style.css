@@ -386,6 +386,15 @@ p{
     font-size: 20px;
     background-color: azure;
 }
+.hover_answer{
+    display: none;
+}
+.request p:hover .hover_answer{
+    display: block;
+    height: 100px;
+    width: 50%;
+    background-color: bisque;
+}
 
 
     /* QUI COMINCIA LA PARTE FINALE "FOOTER" */
