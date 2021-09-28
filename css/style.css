@@ -432,6 +432,7 @@ p{
 .language span{
     color: white;
     border-top: 1px solid grey;
+    cursor: pointer;
 }
 
 
