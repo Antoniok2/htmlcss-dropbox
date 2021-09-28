@@ -41,6 +41,8 @@ body{
     margin-left: 20px;
 }
 
+
+
 /* REGOLE SECONDO CONTENITORE */
 .contenitor2{
     float: right;
@@ -377,6 +379,11 @@ p{
     margin-left: 70px;
     border-top: 1px solid grey;
     padding-top: 20px;
+    cursor: pointer;
+}
+.request p:hover{
+    font-size: 20px;
+    background-color: azure;
 }
 
 
@@ -426,4 +433,6 @@ p{
     color: white;
     border-top: 1px solid grey;
 }
+
+
 
